@@ -28,7 +28,7 @@ for test_case in register_test_cases:
     test_result={}
     print("**------------目前正在测试{}模块的第{}条用例，用例标题为：{}------------**".format(test_case[1],test_case[0],test_case[2]))
     result=http_request(test_case[3],IP+test_case[4],eval(test_case[5]),headers)
-    print("测试结果是：{}".format(result))
+    # print("测试结果是：{}".format(result))
     test_result['code']=result['code']
     test_result['msg'] = result['msg']
     #判断结果是否通过
