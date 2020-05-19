@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+# @Time    : 2019/2/14 20:45
+# @Author  : lemon_huahua
+# @Email   : 204893985@qq.com
+# @File    : class_baseinfo.py
+
+
 from R_W_excel import read_data
 from R_W_excel import write_data
 from http_request import http_request

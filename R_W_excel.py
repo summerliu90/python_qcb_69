@@ -1,5 +1,10 @@
+# -*- coding: utf-8 -*-
+# @Time    : 2019/2/14 20:45
+# @Author  : lemon_huahua
+# @Email   : 204893985@qq.com
+# @File    : class_baseinfo.py
+
 from openpyxl import  load_workbook
-from openpyxl import  Workbook
 
 #读取数据--先写散装代码--再写函数
 

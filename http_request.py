@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+# @Time    : 2019/2/14 20:45
+# @Author  : lemon_huahua
+# @Email   : 204893985@qq.com
+# @File    : class_baseinfo.py
+
 import requests
 
 def http_request(method, url, param, header):
